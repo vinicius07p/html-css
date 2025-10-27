@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <link rel="shortcut icon" href="imagem/icone.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        section{
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        table{
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+
+        tr.medias{
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
+        footer{
+            
+            background-color: gray; 
+            text-align: center;
+            font-size: 0.8em;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.213);
+            margin-top: 43vh;
+            width: 100%;
+            color: white;
+        }
+
+        footer a{
+            font-weight: bolder;
+            color: rgb(195, 190, 190);
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            color: rgb(114, 114, 114);
+            text-decoration: underline;
+        }
+
+        /*footer{
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+            background-color: gray;
+            margin-top: 43vh;
+        }
+
+        footer a{
+            color: rgb(83, 82, 82);
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+            color: rgb(34, 34, 34);
+        }*/
+    </style>
+</head>
+<body>
+    <h1>Notas Escolares</h1>
+    <table>
+        <section>Siga abaixo as informações:</section>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+
+            <tr>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matématica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr class="medias">
+                <th colspan="4">Média de Exatas</th>
+                <td>0.0</td>
+            </tr>
+
+                        <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr class="medias">
+            <th colspan="4">Média de Humanas</th>
+            <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

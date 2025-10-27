@@ -1,0 +1,16 @@
+tem types que sao por exemplo a "screen" e a "print" a print seria da impressora
+e a screen seria da tela mesmo do site que a pessoa vai acessar.
+
+porem o type print fica limitado pq existe um monte de tamanhos de telas e ela acaba
+ficando limitado 
+
+tambem existe as medias features que sao para tamanhos de telas diferentes
+
+as media queries = media type + media feature
+
+type all vai valer o mesmo css para todos os dispositivos
+
+tem o (orientation: portrait e o landscape)
+
+
+mobile first: melhora da experiencia do usuario

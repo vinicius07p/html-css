@@ -1,0 +1,6 @@
+Typical Device Breakpoints
+pequenas telas: telas ate 600px 
+celular de 600px ate 768px
+tablet vao de 768px ate 992px
+desktop vao de 992px ate 1200px
+Grandes telas: acima de 1200px

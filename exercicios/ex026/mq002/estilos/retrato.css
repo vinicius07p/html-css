@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*Aparelho em pé (portrait)*/
+
+body{
+    background: url('../imagens/720x1280.jpg');
+    background-position: center bottom;
+}

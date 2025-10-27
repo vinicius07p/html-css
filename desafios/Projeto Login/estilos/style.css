@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/*
+#8C4216
+#BF6A1F
+#8C6A03
+#BFA004
+#BFB304*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #BFB304;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-image: linear-gradient(to top, #BFB304, #8C6A03);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transform: translate(-50%, -50%);
+    transition: 0.05s 0.05s;
+    transition-timing-function: ease;
+}
+
+section#login>div#imagem {
+    display: block;
+    background: #BFB304 url(../imagens/pattern.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+section#login>div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario>p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+form>input[type=submit] {
+    margin-top: 5px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #BFB304;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form>input[type=submit]:hover {
+    background-color: #887f02;
+}
+
+form>a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #white;
+    color: #867e03;
+    border: 1px solid #BFB304;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+form>a.botao:hover {
+    background-color: #d6c806;
+}
+
+form>a.botao>i {
+    font-size: 0.8em;
+}
+
+form>div.campo {
+    background-color: rgb(250, 250, 250);
+    border: 1px solid #ad8406c7;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0px;
+}
+
+div.campo>input:focus-within {
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+/*#ad8406c7
+#BFB304*/
+
+footer {
+    position: fixed;
+    /* 1. Define a posição como fixa */
+    bottom: 0;
+    /* 2. Fixa ele na parte de baixo da tela */
+    left: 0;
+    /* 3. Alinha à esquerda */
+    right: 0;
+    /* 4. Alinha à direita (isso substitui o width: 100%) */
+
+    background-color: #886703ab;
+    text-align: center;
+    font-size: 0.8em;
+    border: 1px solid rgba(0, 0, 0, 0.213);
+
+    color: white;
+}
+
+footer a {
+    font-weight: bolder;
+    color: #BFB304;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #a89d04;
+    text-decoration: underline;
+}

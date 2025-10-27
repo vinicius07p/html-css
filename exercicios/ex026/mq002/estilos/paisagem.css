@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*Aparelho deitado (landscape)*/
+
+body{
+    background: url('../imagens/1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

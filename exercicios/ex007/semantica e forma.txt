@@ -1,0 +1,5 @@
+html5 é conhecido como o que usa a semântica
+
+html4 é conhecido como que usa a forma
+
+algumas tags que antes funcionavam em html4, hoje não funciona em html5

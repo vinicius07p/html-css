@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /*Configurações Gerais*/
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            color: white;
+            text-shadow: 2px 2px 0px #1526ad;
+            padding: 10px;
+        }
+        /*Aparelho em pé (portrait)*/
+        @media screen and (orientation: portrait){
+        body{
+            background-image: url('../imagens/720x1280.jpg');
+            background-position: center bottom;
+        }
+    }
+        /*Aparelho deitado (landscape)*/
+        @media screen and (orientation: landscape){
+        body{
+            background-image: url('../imagens/1280x720.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo.</h1>
+</body>
+</html>
