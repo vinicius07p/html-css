@@ -12,4 +12,6 @@
 
 <a href="https://vinicius07p.github.io/html-css/desafios/Projeto%20Login/index.html" target="_blank">Projeto Painel de Login.</a>
 
+<a href="https://vinicius07p.github.io/html-css/desafios/desafio-grid/index.html" target="_blank">Projeto Painel de Login.</a>
+
 <a href="https://github.com/vinicius07p/html-css/tree/main/exercicios" target="_blank">Pasta de Exercícios.</a>
